@@ -8,9 +8,9 @@ public class Main {
     public static void main (String [] arg){
 
 
-        ArrayListSample ej = new ArrayListSample();
+        Empleado ej = new Empleado();
 
-        ej.listaTareas();
+        ej.ejercicio();
 
 
     }

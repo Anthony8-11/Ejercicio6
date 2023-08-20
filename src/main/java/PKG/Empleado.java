@@ -53,11 +53,21 @@ public class Empleado {
         ej.setDescuentos(500);
         ej.setSueldo_base(3500);
 
-        int resta=0;
+/*        int resta=0;
 
         resta = (int) (ej.getSueldo_base()-ej.getDescuentos());
 
-        System.out.println("El sueldo liquido de "+ej.getNombre()+" es: "+resta);
+        System.out.println("El sueldo liquido de "+ej.getNombre()+" es: "+resta);*/
+
+        //do a loop to print the list
+        lista.add(ej);
+        for (Empleado item : lista){
+            System.out.println("Nombre: "+item.getNombre()+
+                    "\nSueldo base: "+item.getSueldo_base()+
+                    "\nDescuentos: "+item.getDescuentos()+
+                    "\nSueldo liquido: "+(item.getSueldo_base()-item.getDescuentos()));
+        }
+
 
 
 
