@@ -61,14 +61,12 @@ public class ArrayListSample {
         taskList tarea = new taskList();
 
         tarea = new taskList();
-
         tarea.setTaskName("Ir a votar");
         tarea.setTaskDescription("Mesa 2");
         tarea.setDone(false);
         al.add(tarea);
 
         tarea = new taskList();
-
         tarea.setTaskName("Sacar al chucho");
         tarea.setTaskDescription("Sacar a firulais al parque");
         tarea.setDone(false);
@@ -83,10 +81,10 @@ public class ArrayListSample {
 
 
 
-        int pos =0;
+
         for (taskList item : al){
-            System.out.println(pos+toString());
-            pos ++;
+            System.out.println(item);
+
         }
 
 ;
