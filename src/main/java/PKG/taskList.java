@@ -9,7 +9,7 @@ public class taskList {
 
     @Override
     public String  toString(){
-        return "Nombre: "+this.getTaskName()+" Descripcion: "+this.getTaskDescription();
+        return "Nombre: "+this.getTaskName()+" Descripcion: "+this.getTaskDescription()+" Estado: "+this.isDone();
 
     }
 

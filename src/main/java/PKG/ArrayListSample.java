@@ -69,7 +69,7 @@ public class ArrayListSample {
         tarea = new taskList();
         tarea.setTaskName("Sacar al chucho");
         tarea.setTaskDescription("Sacar a firulais al parque");
-        tarea.setDone(false);
+        tarea.setDone(true);
         al.add(tarea);
 
         tarea = new taskList();
