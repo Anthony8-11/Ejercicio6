@@ -1,6 +1,6 @@
 package org.example;
 
-import PKG.ArrayListSample;
+
 import PKG.Empleado;
 
 public class Main {
